@@ -1,0 +1,30 @@
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .project-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  .project p {
+    text-align: center;
+  }
+  
